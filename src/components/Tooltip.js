@@ -1,5 +1,3 @@
-// Tooltip.js
-
 import React, { useState } from "react";
 
 function Tooltip({ text, children }) {
@@ -7,7 +5,6 @@ function Tooltip({ text, children }) {
 
   return (
     <div
-      className="tooltip"
       onMouseEnter={()=>setIsVisible(true)}
       onMouseLeave={()=>setIsVisible(false)}
       style={{ position: "relative", display: "inline-block" }}
