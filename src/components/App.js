@@ -7,7 +7,7 @@ function App() {
       
       <h2 className="tooltip">
       <Tooltip text="This is a tooltip">
-        Hover over me
+        This is a tooltip
       </Tooltip>
       </h2>
       
