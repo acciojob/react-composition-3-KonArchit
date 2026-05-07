@@ -7,13 +7,13 @@ function App() {
       
       <h2 className="tooltip">
       <Tooltip text="This is a tooltip">
-        <h1>Hover over me</h1>
+        Hover over me
       </Tooltip>
       </h2>
       
       <p className="tooltip">
       <Tooltip text="This is another tooltip">
-        <p>Hover over me to see another tooltip</p>
+        Hover over me to see another tooltip
       </Tooltip>
       </p>
 
