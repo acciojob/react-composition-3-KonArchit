@@ -11,15 +11,11 @@ function App() {
       </Tooltip>
       </h2>
       
-      <hr />
-
       <p className="tooltip">
       <Tooltip text="This is another tooltip">
         <p>Hover over me to see another tooltip</p>
       </Tooltip>
       </p>
-      
-      <hr />
 
     </div>
   );
