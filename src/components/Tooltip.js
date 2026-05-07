@@ -12,7 +12,7 @@ function Tooltip({ text, children }) {
       {children}
 
       {isVisible && (
-        <span
+        <div
           className="tooltiptext"
           style={{
             position: "absolute",
@@ -27,7 +27,7 @@ function Tooltip({ text, children }) {
           }}
         >
           {text}
-        </span>
+        </div>
       )}
     </div>
   );
