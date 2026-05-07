@@ -9,7 +9,6 @@ function Tooltip({ text, children }) {
       onMouseLeave={()=>setIsVisible(false)}
       style={{ position: "relative", display: "inline-block" }}
     >
-      {children}
 
       {isVisible && (
         <div
@@ -29,8 +28,10 @@ function Tooltip({ text, children }) {
           {text}
         </div>
       )}
+      
+      {children}
     </div>
-  );
+  )
 }
 
 export default Tooltip;
